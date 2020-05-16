@@ -14,7 +14,7 @@ class App < Sinatra::Base
     puppy=Puppy.new(name:"bob",breed:"bark",age:5)
     "Name: #{puppy.name = params[:name]}
     breed: #{params[:breed]}
-    Age: #{params[:age]} month"
+    Age: #{params[:age]} months"
   end
 
 end
