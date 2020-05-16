@@ -14,7 +14,7 @@ class App < Sinatra::Base
   post '/puppy' do
     puppy=Puppy.new(name:"bob",breed:"bark",age:5)
   #  "#{puppy.name = paramas[:name]}"
-      puppy.name = paramas[:name]
+      puppy.name = parmas[:name]
   #  puppy.breed
   #  puppy.age
 
